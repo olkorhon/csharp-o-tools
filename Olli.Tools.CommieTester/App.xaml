@@ -1,0 +1,10 @@
+﻿<Application x:Class="Olli.Tools.CommieTester.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Olli.Tools.CommieTester"
+             xmlns:utility="clr-namespace:Olli.Tools.CommieTester.Utility"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <utility:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+    </Application.Resources>
+</Application>
